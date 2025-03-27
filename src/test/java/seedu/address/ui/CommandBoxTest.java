@@ -115,9 +115,9 @@ public class CommandBoxTest {
         }
 
         /**
-         * Resets the autocomplete state.
+         * Resets the tab completion tracking state.
          */
-        public void reset() {
+        public void resetTabCompletionState() {
             matchingCommands = List.of();
             tabIndex = 0;
             hasCompletedToCommonPrefix = false;
@@ -128,23 +128,9 @@ public class CommandBoxTest {
          */
         public void setText(String text) {
             if (!text.equals(currentText)) {
-                reset();
+                resetTabCompletionState();
             }
             this.currentText = text;
-        }
-
-        /**
-         * Gets the current matching commands.
-         */
-        public List<String> getMatchingCommands() {
-            return matchingCommands;
-        }
-
-        /**
-         * Gets the current tab index.
-         */
-        public int getTabIndex() {
-            return tabIndex;
         }
     }
 
