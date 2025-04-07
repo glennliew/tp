@@ -509,9 +509,9 @@ Format: `listTask w/WEDDING_ID`
 Examples:
 * `listTask w/W2`
     * This command shows a list of all tasks of the wedding event `W2` (Refer to the image below)
-</box>
 
     ![result for 'listTask w/W2'](images/listTaskW2.png)
+</box>
 
 <br>
 
