@@ -411,6 +411,8 @@ deleteWedding W2
 ```
 This command deletes the wedding event with ID `W2` (Refer to the image below)
 
+<br>
+
 ![result for 'deleteWedding W2'](images/DeleteWedding.png)
 
 </box>
