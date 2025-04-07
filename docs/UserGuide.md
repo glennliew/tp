@@ -230,14 +230,14 @@ Format: `add n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS r/ROLE`
 
 Examples:
 ```
-`add n/John Doe p/87654321 e/johnd@example.com a/John street, block 123, #01-01 r/Photographer`
+add n/John Doe p/87654321 e/johnd@example.com a/John street, block 123, #01-01 r/Photographer`
 ```
 This command adds a person named `John Doe` with the phone number `87654321`, email `johnd@example.com`, address `John street, block 123, #01-01`, and role `Photographer`.
 
 <br>
 
 ```
-`add n/Betsy Crowe r/Florist e/betsycrowe@example.com a/Blk 321 Clementi West St 1 p/12345678`
+add n/Betsy Crowe r/Florist e/betsycrowe@example.com a/Blk 321 Clementi West St 1 p/12345678`
 ```
 This command adds a person named `Betsy Crowe` with the role `Florist`, email `betsycrowe@example.com`, address `Blk 321 Clementi West St 1`, and phone number `12345678`.
 </box>
@@ -351,8 +351,10 @@ Format: `addWedding n/NAME d/DATE l/LOCATION`
 <box type="definition" seamless>
 
 Examples:
-* `addWedding n/John & Jane's Wedding d/20-May-2026 l/Marina Bay Sands`
-    * This command adds a wedding event named `John & Jane's Wedding` on `20-May-2026` at `Marina Bay Sands`.
+```
+addWedding n/John & Jane's Wedding d/20-May-2026 l/Marina Bay Sands
+```
+This command adds a wedding event named `John & Jane's Wedding` on `20-May-2026` at `Marina Bay Sands`.
 </box>
 
 <br>
@@ -374,10 +376,14 @@ Format: `editWedding WEDDING_ID [n/NAME] [d/DATE] [l/LOCATION]`
 <box type="definition" seamless>
 
 Examples:
-* `editWedding W1 d/20-Jun-2026 l/Marina Bay Sands`
-    * This command edits the date and location of the 1st wedding event to be `20-Jun-2026` and `Marina Bay Sands` respectively.
-* `editWedding W2 n/John & Jane's Wedding`
-    * This command edits the name of the 2nd wedding event to be `John & Jane's Wedding`.
+```
+editWedding W1 d/20-Jun-2026 l/Marina Bay Sands
+```
+This command edits the date and location of the 1st wedding event to be `20-Jun-2026` and `Marina Bay Sands` respectively.
+```
+editWedding W2 n/John & Jane's Wedding
+```
+This command edits the name of the 2nd wedding event to be `John & Jane's Wedding`.
 </box>
 
 <br>
@@ -397,11 +403,15 @@ Format: `deleteWedding WEDDING_ID`
 <box type="definition" seamless>
 
 Examples:
-* `deleteWedding W2`
-    * This command deletes the wedding event with ID `W2` (Refer to the image below)
+```
+deleteWedding W2
+```
+This command deletes the wedding event with ID `W2` (Refer to the image below)
+
+![result for 'deleteWedding W2'](images/DeleteWedding.png)
+
 </box>
 
-    ![result for 'deleteWedding W2'](images/DeleteWedding.png)
 
 <br>
 
