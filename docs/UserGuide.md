@@ -379,13 +379,13 @@ Examples:
 ```
 editWedding W1 d/20-Jun-2026 l/Marina Bay Sands
 ```
-
 This command edits the date and location of the 1st wedding event to be `20-Jun-2026` and `Marina Bay Sands` respectively.
+
+<br>
 
 ```
 editWedding W2 n/John & Jane's Wedding
 ```
-
 This command edits the name of the 2nd wedding event to be `John & Jane's Wedding`.
 </box>
 
